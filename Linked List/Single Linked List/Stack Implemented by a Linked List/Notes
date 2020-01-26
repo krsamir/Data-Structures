@@ -1,0 +1,10 @@
+Stack is a linear data structure which follows a particular order in which the operations are performed. 
+The order may be LIFO (Last In First Out).
+
+While doing stack implementation of Linked List we insert elements from first. So it works as pushing data into stack.
+Method Used: public void insertFirst(long dd)
+
+While deleting we delete nodes from the first (which is same as popping data one by one).
+Method Used:  public long deleteFirst()
+
+So the Data first inserted becomes the last node in the list and the last inserted node by user becomes the first node. While popping/deleting we pop the topmost or the last element. 

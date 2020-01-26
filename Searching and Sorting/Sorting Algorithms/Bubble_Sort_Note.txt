@@ -1,0 +1,18 @@
+We start at the front of the array and compare each pair of numbers.
+If they are out of order(ascending order), we swap them. 
+Then, we move to the next pair and repeat the same process.
+
+Let's again consider the following array:
+4,9,7,1,3,6,5
+We first compare 4 and 9. Are they in order? Yes, so we don't do anything and move to the next pair.
+Now, we have 9 and 7. They are out of order, so we swap them! This gives us:
+4,7,9,1,3,6,5
+Now, the next pair is 9 and 1. Again, they are out of order, so we swap them
+4,7,1,9,3,6,5
+If we keep going down the array, we will eventually turn our array into the following
+4,7,1,3,6,5,9
+
+This sorting algorithm is therefore called Bubble Sort because we continuously swap the largest element in the unsorted 
+portion to the right until it is in its right position; 
+the repetively swapping resembles the way bubbles rising to the surface.
+
